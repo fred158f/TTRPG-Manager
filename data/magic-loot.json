@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "label": "Amulet of Lathander",
+        "type": "Amulet",
+        "Description": "This amulet brings back the user from the brink of death. (When HP reaches 0, the amulet casts heal. Does not work if the user dies instantly.)",
+        "limitation": "The amulet is only wearable by those who revered good. The amulet burns everyone else until removed.",
+        "uses": "2 times per long rest"
+    },
+    {
+        "id": 1,
+        "label": "Tail of bonefiend",
+        "type" : "Improvised weapon (Whip like)",
+        "Description" : "Tale of a bone fiend, with a poisonous spike. (Attack: 1d6 normal damage, 2d4 poison damage. Target must succeed on a DC 14 Cons saving throw or become poisoned)",
+        "limitation" : "Difficult to use: -4 to hit. On a 1 or 2 deals damage to user.",
+        "uses" : "None"
+    },
+    {
+        "id" : 2,
+        "label": "",
+        "type": "",
+        "Description": "",
+        "limitation": "",
+        "uses": ""
+    },
+    {
+        "id" : 3,
+        "label": "",
+        "type": "",
+        "Description": "",
+        "limitation": "",
+        "uses": ""
+    },
+    {
+        "id" : 4,
+        "label": "",
+        "type": "",
+        "Description": "",
+        "limitation": "",
+        "uses": ""
+    },
+    {
+        "id" : 5,
+        "label": "",
+        "type": "",
+        "Description": "",
+        "limitation": "",
+        "uses": ""
+    }
+]

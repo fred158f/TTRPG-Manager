@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTRPG-Manager", "TTRPG-Manager\TTRPG-Manager.csproj", "{E343F2FD-70D8-49BD-95A9-905086B8F1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTRPG-Manager.Tools", "TTRPG-Manager.Tools\TTRPG-Manager.Tools.csproj", "{778AF80B-D24B-4A03-B0B6-83DD4A83FB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTRPG-Manager.Domain", "TTRPG-Manager.Domain\TTRPG-Manager.Domain.csproj", "{90A15CFB-5ECC-4EDD-A870-7B1778E10EDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E343F2FD-70D8-49BD-95A9-905086B8F1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E343F2FD-70D8-49BD-95A9-905086B8F1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E343F2FD-70D8-49BD-95A9-905086B8F1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E343F2FD-70D8-49BD-95A9-905086B8F1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778AF80B-D24B-4A03-B0B6-83DD4A83FB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778AF80B-D24B-4A03-B0B6-83DD4A83FB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778AF80B-D24B-4A03-B0B6-83DD4A83FB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778AF80B-D24B-4A03-B0B6-83DD4A83FB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A15CFB-5ECC-4EDD-A870-7B1778E10EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A15CFB-5ECC-4EDD-A870-7B1778E10EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A15CFB-5ECC-4EDD-A870-7B1778E10EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A15CFB-5ECC-4EDD-A870-7B1778E10EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
