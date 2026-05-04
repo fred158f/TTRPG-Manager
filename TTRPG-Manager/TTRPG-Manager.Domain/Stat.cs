@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TTRPG_Manager.Domain
+﻿namespace TTRPG_Manager.Domain
 {
     public class Stat
     {
@@ -13,7 +7,7 @@ namespace TTRPG_Manager.Domain
         int savingthrow = 0;
         int proficiencybonus = 0;
 
-        public Stat(int _value, int _proficiency)
+        public Stat(int _value, int _proficiency = 0)
         {
             proficiencybonus = _proficiency;
             UpdateValue(_value);

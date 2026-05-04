@@ -8,11 +8,11 @@ namespace TTRPG_Manager.Domain
 {
     public class StatBlock
     {
-        public Stat Strength;
-        public Stat Dexterity;
-        public Stat Intelligence;
-        public Stat Wisdom;
-        public Stat Charisma;
-        public Stat Constitution;
+        public Stat Strength { get; set; }
+        public Stat Dexterity { get; set; }
+        public Stat Intelligence { get; set; }
+        public Stat Wisdom { get; set; }
+        public Stat Charisma { get; set; }
+        public Stat Constitution { get; set; }
     }
 }

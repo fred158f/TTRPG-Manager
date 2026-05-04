@@ -13,7 +13,7 @@ namespace TTRPG_Manager
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
-            builder.Services.AddTransient<IRepository<object>, TestDatabase<object>>();
+            //builder.Services.AddTransient<IRepository<object>, TestDatabase<object>>();
 
             var app = builder.Build();
 

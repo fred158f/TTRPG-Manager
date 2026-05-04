@@ -1,0 +1,37 @@
+﻿
+.char-img {
+    object-fit: cover;
+    width: 150px;
+    height: 200px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+    .character.enemy {
+        box-shadow: 0px 0px 6px 4px darkred;
+    }
+
+    .character.npc {
+        border-color: gold;
+        box-shadow: 0px 0px 6px 4px gold;
+    }
+
+    .character.player {
+        box-shadow: 0px 0px 6px 4px forestgreen;
+    }
+
+.knocked {
+    display: block;
+    fill: rgba(255, 0, 0, .5);
+}
+
+.dead {
+    display: block;
+    fill: rgba(0, 255, 0);
+}

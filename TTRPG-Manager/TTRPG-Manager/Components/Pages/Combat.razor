@@ -1,5 +1,72 @@
-﻿
+﻿@page "/combat"
+@using TTRPG_Manager.Components.Combat
+
+<div class="combat-board">
+    <CombatSide creatures="@enemies" />
+    <CombatSide creatures="@players" />
+</div>
+
 
 @code {
+    Creature[] enemies = {
+        new Creature(8, new StatBlock() {
+            Charisma     = new(10),
+            Constitution = new(14),
+            Dexterity    = new(18),
+            Intelligence = new(15),
+            Strength     = new(14),
+            Wisdom       = new(2)
+        }, "Wolf") { ChType = CharacterType.Enemy },
+                new Creature(20, new StatBlock() {
+            Charisma     = new(10),
+            Constitution = new(14),
+            Dexterity    = new(18),
+            Intelligence = new(15),
+            Strength     = new(14),
+            Wisdom       = new(2)
+        }, "Bear") { ChType = CharacterType.Enemy },
+                new Creature(4, new StatBlock() {
+            Charisma     = new(10),
+            Constitution = new(14),
+            Dexterity    = new(18),
+            Intelligence = new(15),
+            Strength     = new(14),
+            Wisdom       = new(2)
+        }, "Snake") { ChType = CharacterType.Enemy }
+    };
 
+    Creature[] players = {
+                new Creature(26, new StatBlock() {
+            Charisma     = new(10),
+            Constitution = new(14),
+            Dexterity    = new(18),
+            Intelligence = new(15),
+            Strength     = new(14),
+            Wisdom       = new(2)
+        }, "Azran") { ChType = CharacterType.Player },
+                new Creature(34, new StatBlock() {
+            Charisma     = new(17),
+            Constitution = new(14),
+            Dexterity    = new(15),
+            Intelligence = new(13),
+            Strength     = new(13),
+            Wisdom       = new(15)
+        }, "Aisha") { ChType = CharacterType.Player },
+                new Creature(29, new StatBlock() {
+            Charisma     = new(10),
+            Constitution = new(14),
+            Dexterity    = new(18),
+            Intelligence = new(15),
+            Strength     = new(14),
+            Wisdom       = new(2)
+        }, "Grog") { ChType = CharacterType.Player },
+                new Creature(20, new StatBlock() {
+            Charisma     = new(10),
+            Constitution = new(14),
+            Dexterity    = new(18),
+            Intelligence = new(15),
+            Strength     = new(14),
+            Wisdom       = new(2)
+        }, "Doric") { ChType = CharacterType.Player }
+    };
 }

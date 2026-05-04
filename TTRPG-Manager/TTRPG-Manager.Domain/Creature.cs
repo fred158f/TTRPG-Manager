@@ -1,19 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TTRPG_Manager.Domain
+﻿namespace TTRPG_Manager.Domain
 {
+    public enum CreatureType
+    {
+        Humanoid,
+        Monstrosity,
+        Fiend,
+        Undead,
+        Goblonoid,
+        Beast
+    }
+
+    public enum CharacterType
+    {
+        Player,
+        Enemy,
+        NPC,
+        NbrOfItems
+    }
+
     public class Creature
     {
         readonly string name = "";
         int hitpoints = 0;
-        //string description = "";
         
         public StatBlock Stats { get; }
         public int Initiative { get; set; }
+        public CharacterType ChType { get; set; }
+        public CreatureType CrType { get; set; }
 
         public Creature(int hp, StatBlock _stats, string _name)
         {

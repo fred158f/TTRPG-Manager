@@ -1,0 +1,10 @@
+﻿
+.content {
+    
+}
+
+.combat-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

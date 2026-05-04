@@ -1,0 +1,11 @@
+﻿<div class="content">
+    @foreach (Creature creature in creatures)
+    {
+        <CombatCharacter character="creature" />
+    }
+</div>
+
+@code {
+    [Parameter]
+    public Creature[] creatures { get; set; } = [];
+}

@@ -1,0 +1,28 @@
+﻿@if (character != null)
+{
+    @* <svg>
+        <rect width="100px" height="100px" class="dead" />
+    </svg> *@
+
+    <div class="character @((Enum.GetName(character.ChType) ?? "").ToLower())">
+        <img class="char-img" src="@(character.GetName().Replace(" ", "").ToLower()).png" />
+        <div>
+            <div>Name: @character.GetName()</div>
+            <div>Health: @character.GetHP()</div>
+            <div>Initiative: @character.Initiative</div>
+            <div style="display: flex;">
+                <div @onclick="() => character.ModifyHealth(1)">
+                    +
+                </div>
+                <div @onclick="() => character.ModifyHealth(-1)">
+                    -
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Creature? character { get; set; }
+}
